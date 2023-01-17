@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Header1TextView">
+        <item name="android:textSize">@dimen/text_size_extra_big</item>
+        <item name="fontFamily">@font/andika_new_basic</item>
+    </style>
+
+    <style name="Header2TextView">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="fontFamily">@font/andika_new_basic</item>
+    </style>
+
+    <style name="Header3TextView">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="fontFamily">@font/andika_new_basic</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:backgroundTint">@color/yellow</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

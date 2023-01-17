@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Daily Horoscope</string>
+    <string name="what_s_your_zodiac_sign">What’s Your Zodiac Sign?</string>
+    <string name="aries">Aries</string>
+    <string name="taurus">Taurus</string>
+    <string name="gemini">Gemini</string>
+    <string name="cancer">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpius">Scorpius</string>
+    <string name="sagittarius">Sagittarius</string>
+    <string name="capricorn">Capricorn</string>
+    <string name="aquarius">Aquarius</string>
+    <string name="pisces">Pisces</string>
+    <string name="logo">logo</string>
+    <string name="sign_icon">Sign icon</string>
+    <string name="error">Error</string>
+    <string name="sign_preferences">sign_preferences</string>
+    <string name="todays_horoscope">Today\'s horoscope:\n</string>
+    <string name="compatibility">Compatibility:\u0020</string>
+    <string name="mood">Mood:\u0020</string>
+    <string name="color">Color:\u0020</string>
+    <string name="lucky_number">Lucky number:\u0020</string>
+    <string name="lucky_time">Lucky time:\u0020</string>
+    <string name="for_str">For:\u0020</string>
+    <string name="explain_permission">If you want to see notifications from this app please grant permission!</string>
+    <string name="sure">Sure</string>
+    <string name="no">No</string>
+    <string name="getting_horoscope">Getting today\'s horoscope</string>
+    <string name="horoscope_stored">Horoscope is stored successfully!</string>
+    <string name="error_data">Error with data!</string>
+</resources>

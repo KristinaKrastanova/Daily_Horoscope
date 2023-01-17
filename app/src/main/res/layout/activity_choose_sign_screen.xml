@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseSignActivity">
+
+    <TextView
+        android:id="@+id/choose_Text"
+        style="@style/Header2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_s_your_zodiac_sign"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choose_Text">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/aries_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/aries"
+                android:text="@string/aries" />
+
+            <Button
+                android:id="@+id/taurus_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/taurus"
+                android:text="@string/taurus" />
+
+            <Button
+                android:id="@+id/gemini_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/gemini"
+                android:text="@string/gemini" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/cancer_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/cancer"
+                android:text="@string/cancer" />
+
+            <Button
+                android:id="@+id/leo_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/leo"
+                android:text="@string/leo" />
+
+            <Button
+                android:id="@+id/virgo_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/virgo"
+                android:text="@string/virgo" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/libra_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/libra"
+                android:text="@string/libra" />
+
+            <Button
+                android:id="@+id/scorpius_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/scorpius"
+                android:text="@string/scorpius" />
+
+            <Button
+                android:id="@+id/sagittarius_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/sagittarius"
+                android:text="@string/sagittarius" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/capricornus_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/capricornius"
+                android:text="@string/capricorn" />
+
+            <Button
+                android:id="@+id/aquarius_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/aquarius"
+                android:text="@string/aquarius" />
+
+            <Button
+                android:id="@+id/pisces_button"
+                style="@style/Button"
+                android:layout_margin="@dimen/margin_small"
+                android:drawableTop="@drawable/pisces"
+                android:text="@string/pisces" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
